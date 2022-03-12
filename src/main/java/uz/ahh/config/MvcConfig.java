@@ -70,7 +70,7 @@ public class MvcConfig implements WebMvcConfigurer {
         driverManagerDataSource.setDriverClassName("org.postgresql.Driver");
         driverManagerDataSource.setUrl("jdbc:postgresql://localhost:5432/exam?currentSchema=book");
         driverManagerDataSource.setUsername("postgres");
-        driverManagerDataSource.setPassword("neo");
+        driverManagerDataSource.setPassword("5654");
         return driverManagerDataSource;
     }
 
